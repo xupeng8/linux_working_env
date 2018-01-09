@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ $# != 2 ]; then
+	echo -e "usage:\n\tswi oldstring newstring"
+	exit
+fi
+sed -i "s/$1/$2/g" `grep -rl $1 ./`

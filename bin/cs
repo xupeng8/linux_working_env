@@ -1,0 +1,4 @@
+rm gtags.files GTAGS GPATH tags 1>/dev/null 2>&1
+find . -name "*.h" -o -name "*.c" -o -name "*.cpp" > gtags.files
+gtags -f gtags.files
+ctags -L gtags.files
