@@ -1,0 +1,20 @@
+[user]
+	email = peng.xu@cavium.com
+	name = Peng Xu
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)< %an %ae >%Creset' --abbrev-commit
+    co = checkout
+    st = status
+    ci = commit
+    br = branch
+[core]
+	editor = vim
+[credential]
+	helper = store
+[push]
+	default = simple
