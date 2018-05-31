@@ -15,7 +15,6 @@ Bundle 'The-NERD-tree'
 Bundle 'Tagbar'
 Bundle 'SrcExpl'
 Bundle 'indentpython.vim'
-Bundle 'Valloric/YouCompleteMe'
 Bundle 'davidhalter/jedi-vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'Vimjas/vim-python-pep8-indent'
@@ -101,13 +100,6 @@ let g:SrcExpl_pluginList = [
             \ "NERD_tree_1", 
             \ "Source_Explorer" 
             \ ] 
-
-" YouCompleteMe
-" let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'  
-" nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>  
-" let g:ycm_python_binary_path = '/usr/bin/python3'  
-" nmap<C-a> :YcmCompleter FixIt<CR>
-
 
 let g:pymode_python = 'python3'
 autocmd VimEnter *.py python3 sys.path.append('.')
