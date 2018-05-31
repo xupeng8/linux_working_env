@@ -8,6 +8,7 @@
 	interactive = auto
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)< %an %ae >%Creset' --abbrev-commit
+	lgno = log --name-only 
     co = checkout
     st = status
     ci = commit
